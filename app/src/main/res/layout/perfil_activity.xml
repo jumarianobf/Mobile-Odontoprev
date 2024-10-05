@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/perfilActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".PerfilActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="132dp">
+
+
+    <View
+        android:layout_width="58dp"
+        android:layout_height="39dp"
+        android:background="@drawable/arrow_back"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="35dp">
+
+    </View>
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="54dp"
+        android:src="@drawable/user"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="381dp"
+        android:layout_height="188dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="146dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="135dp"
+        android:layout_height="43dp"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="173dp"
+        tools:text="Dependente ou titular"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="88dp"
+        android:layout_height="27dp"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="205dp"
+        tools:text="Nome completo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="103dp"
+        android:layout_height="29dp"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="232dp"
+        tools:text="empresa de parceria"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="89dp"
+        android:layout_height="45dp"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="278dp"
+        tools:text="Nº  carteirinha\n1234456789"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="79dp"
+        android:layout_height="34dp"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="278dp"
+        tools:text="Rede\nexemplo rede" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="377dp"
+        android:layout_height="72dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="387dp">
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="21dp"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="415dp"
+        tools:text="Minhas Consultas" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="377dp"
+        android:layout_height="72dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="485dp">
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="77dp"
+        android:layout_height="23dp"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="517dp"
+        tools:text="Reembolso" />
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="69dp"
+        android:background="@drawable/bg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="637dp">
+
+    </View>
+
+    <View
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:background="@drawable/home"
+        tools:ignore="ExtraText,MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="645dp" />
+
+    <View
+        android:layout_width="59dp"
+        android:layout_height="54dp"
+        android:background="@drawable/perrot"
+        tools:ignore="ExtraText,MissingConstraints"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="645dp" />
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="54dp"
+        android:background="@drawable/account_circle"
+        tools:ignore="ExtraText,MissingConstraints"
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="645dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/perrot_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MenuActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="132dp">
+
+
+    <TextView
+        android:layout_width="216dp"
+        android:layout_height="27dp"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="3.6sp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="68dp"
+        tools:text="Os Melhores Planos para você" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="354dp"
+        android:layout_height="129dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="139dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="6sp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="157dp"
+        tools:text="Nome do plano" />
+
+    <TextView
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2.2sp"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="187dp"
+        tools:text="Rede do plano: ." />
+
+    <TextView
+        android:layout_width="24dp"
+        android:layout_height="18dp"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="209dp"
+        tools:text="R$" />
+
+    <TextView
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:lineSpacingExtra="4.8sp"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="211dp"
+        tools:text="29" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="209dp"
+        tools:text=",90" />
+
+    <TextView
+        android:layout_width="45dp"
+        android:layout_height="26dp"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="231dp"
+        tools:text="Mensal" />
+
+    <TextView
+        android:layout_width="23dp"
+        android:layout_height="34dp"
+        android:text="✓"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <TextView
+        android:layout_width="23dp"
+        android:layout_height="34dp"
+        android:text="✓"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <TextView
+        android:layout_width="23dp"
+        android:layout_height="34dp"
+        android:text="✓"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="20dp"
+        android:layout_height="27dp"
+        android:text="✓"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2.2sp"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="162dp"
+        tools:text="RoI ANS" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2.2sp"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="187dp"
+        tools:text="Limpeza" />
+
+    <TextView
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2.2sp"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="208dp"
+        tools:text="Tratamento" />
+
+    <TextView
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2.2sp"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="227dp"
+        tools:text="Extração de siso" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="354dp"
+        android:layout_height="129dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="281dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="6sp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="303dp"
+        tools:text="Nome do plano" />
+
+    <TextView
+        android:layout_width="24dp"
+        android:layout_height="18dp"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="355dp"
+        tools:text="R$" />
+
+    <TextView
+        android:layout_width="45dp"
+        android:layout_height="26dp"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="377dp"
+        tools:text="Mensal" />
+
+    <TextView
+        android:layout_width="23dp"
+        android:layout_height="34dp"
+        android:text="✓"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <TextView
+        android:layout_width="23dp"
+        android:layout_height="34dp"
+        android:text="✓"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <TextView
+        android:layout_width="23dp"
+        android:layout_height="34dp"
+        android:text="✓"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="20dp"
+        android:layout_height="27dp"
+        android:text="✓"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2.2sp"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="308dp"
+        tools:text="RoI ANS" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2.2sp"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="333dp"
+        tools:text="Limpeza" />
+
+    <TextView
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2.2sp"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="354dp"
+        tools:text="Tratamento" />
+
+    <TextView
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2.2sp"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="373dp"
+        tools:text="Extração de siso" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="355dp"
+        tools:text=",90" />
+
+    <TextView
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2.2sp"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="333dp"
+        tools:text="Rede do plano: ." />
+
+    <TextView
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:lineSpacingExtra="4.8sp"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="357dp"
+        tools:text="29" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="354dp"
+        android:layout_height="129dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="425dp">
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="23dp"
+        android:layout_height="34dp"
+        android:text="✓"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="467dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="6sp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="446dp"
+        tools:text="Nome do plano" />
+
+    <TextView
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2.2sp"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="476dp"
+        tools:text="Rede do plano: ." />
+
+    <TextView
+        android:layout_width="45dp"
+        android:layout_height="26dp"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="520dp"
+        tools:text="Mensal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="498dp"
+        tools:text=",90" />
+
+    <TextView
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:lineSpacingExtra="4.8sp"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="503dp"
+        tools:text="29" />
+
+    <TextView
+        android:layout_width="24dp"
+        android:layout_height="18dp"
+        android:lineSpacingExtra="2sp"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="498dp"
+        tools:text="R$" />
+
+    <TextView
+        android:layout_width="23dp"
+        android:layout_height="34dp"
+        android:text="✓"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <TextView
+        android:layout_width="23dp"
+        android:layout_height="34dp"
+        android:text="✓"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2.2sp"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="452dp"
+        tools:text="RoI ANS" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2.2sp"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="477dp"
+        tools:text="Limpeza" />
+
+    <TextView
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2.2sp"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="498dp"
+        tools:text="Tratamento" />
+
+    <TextView
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="2.2sp"
+        android:textColor="#ffffff"
+        android:textSize="11sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="517dp"
+        tools:text="Extração de siso" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="20dp"
+        android:layout_height="27dp"
+        android:text="✓"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <View
+        android:layout_width="83dp"
+        android:layout_height="76dp"
+        android:background="@drawable/bg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="629dp">
+
+    </View>
+
+    <View
+        android:id="@+id/menu"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
+        android:background="@drawable/home"
+        tools:ignore="ExtraText,MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="645dp" />
+
+    <View
+        android:id="@+id/perrot"
+        android:layout_width="59dp"
+        android:layout_height="54dp"
+        android:background="@drawable/perrot"
+        tools:ignore="ExtraText,MissingConstraints"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="645dp" />
+
+    <View
+        android:id="@+id/perfil"
+        android:layout_width="60dp"
+        android:layout_height="54dp"
+        android:background="@drawable/account_circle"
+        tools:ignore="ExtraText,MissingConstraints"
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="645dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

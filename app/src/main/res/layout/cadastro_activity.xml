@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".RegisterActivity">
+
+
+    <View
+        android:id="@+id/new_view"
+        android:layout_width="218dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/logo"
+        android:elevation="4dp"
+        android:translationZ="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:lineSpacingExtra="3.6sp"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="281dp"
+        tools:text="Crie sua conta" />
+
+    <LinearLayout
+        android:layout_width="358dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:background="@drawable/text_field"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="324dp">
+
+        <EditText
+            android:id="@+id/email_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textColor="#80ffffff"
+            android:textColorHint="#80ffffff"
+            android:textSize="16sp"
+            android:hint="E-mail" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="358dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:background="@drawable/text_field"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="421dp">
+
+        <EditText
+            android:id="@+id/password_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textColor="#80ffffff"
+            android:textColorHint="#80ffffff"
+            android:textSize="16sp"
+            android:hint="Senha"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/cadastro_button"
+        android:layout_width="328dp"
+        android:layout_height="55dp"
+        android:background="@drawable/rounded_corners"
+        android:gravity="center"
+        android:padding="8dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="526dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingExtra="5.6sp"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            tools:text="Cadastre-se" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:lineSpacingExtra="5.6sp"
+        android:textColor="#73747d"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="605dp"
+        tools:text="Já tem uma conta?"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:lineSpacingExtra="5.6sp"
+        android:textColor="#3274b7"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="605dp"
+        tools:text="Acesse" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
