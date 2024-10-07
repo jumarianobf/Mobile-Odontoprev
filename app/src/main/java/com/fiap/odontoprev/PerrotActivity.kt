@@ -12,7 +12,6 @@ import androidx.appcompat.app.AppCompatActivity
 class PerrotActivity : AppCompatActivity() {
     private lateinit var editText: EditText
 
-    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.perrot_activity)

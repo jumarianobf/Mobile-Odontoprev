@@ -3,7 +3,6 @@ package com.fiap.odontoprev
 import android.content.Intent
 import android.os.Bundle
 import android.widget.RelativeLayout
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class RegisterActivity : AppCompatActivity() {
