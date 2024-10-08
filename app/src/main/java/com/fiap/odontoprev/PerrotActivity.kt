@@ -10,21 +10,21 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class PerrotActivity : AppCompatActivity() {
-    private lateinit var editText: EditText
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.perrot_activity)
 
-        val sendButton: ImageButton = findViewById(R.id.send_button)
-        editText = findViewById(R.id.edit_text)
 
-        sendButton.setOnClickListener {
-            val message = editText.text.toString()
-            sendMessage(message)
+        val homeView: ImageButton = findViewById(R.id.view6)
+
+        homeView.setOnClickListener {
+
+            val intent = Intent(this, MenuActivity::class.java)
+            startActivity(intent)
+            finish()
         }
 
-        val profileView: View = findViewById(R.id.perfil)
+        val profileView: ImageButton = findViewById(R.id.view8)
 
         profileView.setOnClickListener {
 
@@ -32,25 +32,6 @@ class PerrotActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-
-        val menuView: View = findViewById(R.id.menu)
-
-        menuView.setOnClickListener {
-
-            val intent = Intent(this, MenuActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
     }
-
-    private fun sendMessage(message: String) {
-        if (message.isNotEmpty()) {
-            Toast.makeText(this, "Mensagem enviada: $message", Toast.LENGTH_SHORT).show()
-            editText.text.clear()
-        } else {
-            Toast.makeText(this, "Digite uma mensagem para enviar.", Toast.LENGTH_SHORT).show()
-        }
-    }
-
-
 }
+

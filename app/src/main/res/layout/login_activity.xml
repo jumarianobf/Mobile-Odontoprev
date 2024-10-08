@@ -38,12 +38,12 @@
         app:layout_constraintStart_toStartOf="@+id/linearLayout"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:text="Acesse sua conta" />
+        android:text="Acesse sua conta" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="358dp"
+        android:layout_height="70dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="324dp"
         android:layout_marginEnd="17dp"
@@ -72,8 +72,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="358dp"
+        android:layout_height="70dp"
         android:layout_marginStart="17dp"
         android:layout_marginEnd="17dp"
         android:layout_marginBottom="37dp"
@@ -102,8 +102,8 @@
 
     <Button
         android:id="@+id/login_button"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="328dp"
+        android:layout_height="55dp"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="148dp"
@@ -131,22 +131,23 @@
         android:textStyle="normal"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
         app:layout_constraintStart_toStartOf="@+id/login_button"
-        tools:text="Ainda não tem uma conta?" />
+        android:text="Ainda não tem uma conta?" />
 
-    <TextView
+    <Button
         android:id="@+id/textView6"
         android:layout_width="221dp"
         android:layout_height="0dp"
-        android:layout_marginStart="198dp"
+        android:layout_marginStart="196dp"
         android:layout_marginBottom="103dp"
+        android:backgroundTint="#00FFFFFF"
         android:lineSpacingExtra="5.6sp"
+        android:text="Cadastre-se"
         android:textColor="#3274b7"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/login_button"
-        tools:ignore="MissingConstraints"
-        tools:text="Cadastre-se" />
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

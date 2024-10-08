@@ -10,12 +10,21 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class PerfilActivity : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.perfil_activity)
 
-        val perrotView: View = findViewById(R.id.perrot)
+        val homeView: ImageButton = findViewById(R.id.view16)
+
+        homeView.setOnClickListener {
+
+            val intent = Intent(this, MenuActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        val perrotView: ImageButton = findViewById(R.id.view17)
 
         perrotView.setOnClickListener {
 
@@ -24,13 +33,5 @@ class PerfilActivity : AppCompatActivity() {
             finish()
         }
 
-        val menuView: View = findViewById(R.id.menu)
-
-        menuView.setOnClickListener {
-
-            val intent = Intent(this, MenuActivity::class.java)
-            startActivity(intent)
-            finish()
-        }
     }
 }

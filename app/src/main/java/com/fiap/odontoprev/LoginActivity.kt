@@ -28,6 +28,12 @@ class LoginActivity : AppCompatActivity() {
                 showError("Credenciais inválidas")
             }
         }
+
+        val cadastreButton: Button = findViewById(R.id.textView6)
+        cadastreButton.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun validateLogin(email: String, password: String): Boolean {
@@ -38,4 +44,6 @@ class LoginActivity : AppCompatActivity() {
     private fun showError(message: String) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
+
+
 }

@@ -3,6 +3,7 @@ package com.fiap.odontoprev
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 
 class MenuActivity : AppCompatActivity() {
@@ -12,7 +13,7 @@ class MenuActivity : AppCompatActivity() {
         setContentView(R.layout.menu_activity)
 
 
-        val perrotView: View = findViewById(R.id.perrot)
+        val perrotView: ImageButton = findViewById(R.id.perrot)
 
         perrotView.setOnClickListener {
 
@@ -21,7 +22,7 @@ class MenuActivity : AppCompatActivity() {
             finish()
         }
 
-        val profileView: View = findViewById(R.id.perfil)
+        val profileView: ImageButton = findViewById(R.id.perfil)
 
         profileView.setOnClickListener {
 
